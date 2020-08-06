@@ -241,3 +241,10 @@ RUN,2020/08/03 23:20
 TAG_ADD,宇土市
 RUN,2020/08/04 23:53
 TAG_ADD,菊陽町
+RUN,2020/08/07 00:23
+TAG_ADD,入院中・入院調整中
+TAG_ADD,累積
+TAG_ADD,無症状・軽症・中等症
+TAG_REMOVE,入院中
+TAG_REMOVE,軽症・<br />中等症
+TAG_REMOVE,（療養期間経過を含む）

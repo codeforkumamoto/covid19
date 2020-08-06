@@ -158,8 +158,6 @@
   "議事堂計": "Metropolitan Assembly Bldg. total",
   "※土・日・祝日を除く庁舎開庁日の1週間累計数": "* Weekly number of visitors on days the building was open to the public, excluding Sat., Sun., and holidays.",
   "陽性者数": "Total number of people testing positive",
-  "入院中": "Hospitalized",
-  "軽症・<br />中等症": "Mild to moderate symptoms",
   "重症": "Severe symptoms",
   "死亡": "Deaths",
   "退院": "Discharged",
@@ -429,7 +427,6 @@
   "青ヶ島村": "Aogashima",
   "小笠原村": "Ogasawara",
   "（注）退院者数の把握には一定の期間を要しており、確認次第数値を更新している": "(Note) It takes a certain period of time to grasp the number of hospital discharges, and the figures will be updated once confirmed.",
-  "（療養期間経過を含む）": "(including recuperation period)",
   "※退院は、保健所から報告があり、確認ができているものを反映": "* Discharged only includes cases reported and verified by public health centers",
   "死亡退院を含む": "including death discharges",
   "新型コロナウイルスの感染が判明した方へ": "To people found to be infected with coronavirus",
@@ -509,5 +506,8 @@
   "宇土市": "Uto City",
   "菊陽町": "Kikuyo Town",
   "人吉市": "Hitoyoshi City",
-  "兵庫県": "Hyogo Pref."
+  "兵庫県": "Hyogo Pref.",
+  "入院中・入院調整中": "Hospitalized",
+  "累積": "Total",
+  "無症状・軽症・中等症": "Mild to moderate symptoms"
 }
