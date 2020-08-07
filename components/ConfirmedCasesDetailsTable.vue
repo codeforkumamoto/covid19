@@ -51,6 +51,15 @@
         </li>
         <li :class="[$style.box]">
           <div :class="$style.content">
+            <span>{{ $t('確認中') }}</span>
+            <span>
+              <strong>{{ 確認中.toLocaleString() }}</strong>
+              <span :class="$style.unit">{{ $t('人') }}</span>
+            </span>
+          </div>
+        </li>
+        <li :class="[$style.box]">
+          <div :class="$style.content">
             <span>{{ $t('死亡') }}</span>
             <span>
               <strong>{{ 死亡.toLocaleString() }}</strong>
@@ -94,6 +103,10 @@ export default Vue.extend({
       required: true
     },
     重症: {
+      type: Number,
+      required: true
+    },
+    確認中: {
       type: Number,
       required: true
     },
