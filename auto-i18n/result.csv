@@ -248,3 +248,5 @@ TAG_ADD,無症状・軽症・中等症
 TAG_REMOVE,入院中
 TAG_REMOVE,軽症・<br />中等症
 TAG_REMOVE,（療養期間経過を含む）
+RUN,2020/08/07 15:32
+TAG_ADD,確認中
