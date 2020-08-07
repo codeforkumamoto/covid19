@@ -20,7 +20,7 @@
       <ul :class="$style.group">
         <li :class="[$style.box, $style.parent]">
           <div :class="$style.content">
-            <span>{{ $t('入院中・入院調整中') }}</span>
+            <span>{{ $t('入院中') }}</span>
             <span>
               <strong>{{ 入院中.toLocaleString() }}</strong>
               <span :class="$style.unit">{{ $t('人') }}</span>
