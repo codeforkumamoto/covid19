@@ -248,3 +248,6 @@ TAG_ADD,無症状・軽症・中等症
 TAG_REMOVE,入院中
 TAG_REMOVE,軽症・<br />中等症
 TAG_REMOVE,（療養期間経過を含む）
+RUN,2020/08/08 07:03
+TAG_ADD,南小国町
+TAG_ADD,上天草市
