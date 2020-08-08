@@ -44,6 +44,8 @@
       <!-- <metro-card /> -->
       <!-- 都庁来庁者数の推移 -->
       <!-- <agency-card /> -->
+      <!-- 陽性患者数(公表日基準) -->
+      <confirmed-cases-number-announced-card />
     </card-row>
     <v-divider />
   </div>
@@ -60,6 +62,7 @@ import Data from '@/data/data.json'
 import News from '@/data/news.json'
 import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
+import ConfirmedCasesNumberAnnouncedCard from '@/components/cards/ConfirmedCasesNumberAnnouncedCard.vue'
 import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttributesCard.vue'
 // import ConfirmedCasesByMunicipalitiesCard from '@/components/cards/ConfirmedCasesByMunicipalitiesCard.vue'
 // import TestedCasesDetailsCard from '@/components/cards/TestedCasesDetailsCard.vue'
@@ -79,6 +82,7 @@ export default Vue.extend({
     CardRow,
     ConfirmedCasesDetailsCard,
     ConfirmedCasesNumberCard,
+    ConfirmedCasesNumberAnnouncedCard,
     ConfirmedCasesAttributesCard,
     // ConfirmedCasesByMunicipalitiesCard,
     // TestedCasesDetailsCard,

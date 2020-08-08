@@ -1,10 +1,10 @@
 <template>
   <v-col cols="12" md="6" class="DataCard">
     <new-patients-chart
-      :date="Data.patients_summary.date"
-      :daily-data="Data.patients_summary.data"
+      :date="Data.patients_summary_announced.date"
+      :daily-data="Data.patients_summary_announced.data"
       :url="'https://www.pref.kumamoto.jp/kiji_22038.html'"
-      :title="$t('陽性患者数')"
+      :title="$t('陽性患者数(公表日基準)')"
       :remarks="remarks"
     />
     <!-- <time-bar-chart
@@ -48,9 +48,6 @@ export default {
     // const patientsGraph = formatGraph(Data.patients_summary.data)
 
     const remarks = [
-      this.$t(
-        '陽性者における日付は、公表日ではなく、検査により陽性が確定された日'
-      ),
       this.$t('過去7日間の平均は、新規感染者数の後方7日移動平均値です'),
       this.$t(
         '陽性者数は件数であり、同一人物に複数回の感染がある場合、別としてカウントする'

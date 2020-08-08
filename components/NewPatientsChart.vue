@@ -1,6 +1,6 @@
 <template>
   <data-view
-    :title="displayTitle"
+    :title="title"
     title-id="new-patients-chart"
     :date="date"
     :url="url"
@@ -79,11 +79,11 @@ export default class NewPatientsChart extends Vue {
   @Prop()
   public url?: string
 
-  private readonly remarks = [
-    this.$t('陽性者における日付は、公表日ではなく、検査により陽性が確定された日'),
-    this.$t('過去7日間の平均は、新規感染者数の後方7日移動平均値です'),
-    this.$t('陽性者数は件数であり、同一人物に複数回の感染がある場合、別としてカウントする')
-  ]
+  @Prop()
+  public title?: string
+
+  @Prop()
+  public remarks?: string[]
 
   private readonly showSelector = true
   private dataKind: DataKind = 'transition'
@@ -93,13 +93,6 @@ export default class NewPatientsChart extends Vue {
   ]
 
   private readonly chartDataSet = new Map<DataKind, GraphData>()
-
-  private get displayTitle(): string {
-    // return `${
-    //   this.dataKind === 'cumulative' ? '累計' : '新規'
-    // }感染者数`
-    return this.$t('陽性患者数').toString()
-  }
 
   private formatDayBeforeRatio = (dayBeforeRatio: any) => {
     const dayBeforeRatioLocaleString = dayBeforeRatio.toLocaleString()
