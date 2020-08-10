@@ -168,23 +168,23 @@ export default Vue.extend({
           title: this.$t('【県】熊本県公式ホームページ'),
           link: 'https://www.pref.kumamoto.jp/'
         },
-        {
-          icon: 'ParentIcon',
-          title: this.$t('お子様をお持ちの皆様へ'),
-          link: this.localePath('/parent')
-        },
-        {
-          icon: 'mdi-account-multiple',
-          title: this.$t('【県】県民の皆様へ'),
-          link:
-            'https://www.pref.kumamoto.jp/hpkiji/pub/List.aspx?c_id=3&class_set_id=1&class_id=7057'
-        },
-        {
-          icon: 'mdi-domain',
-          title: this.$t('【県】事業者の皆様へ'),
-          link:
-            'https://www.pref.kumamoto.jp/hpkiji/pub/List.aspx?c_id=3&class_set_id=1&class_id=7054'
-        },
+        // {
+        //   icon: 'ParentIcon',
+        //   title: this.$t('お子様をお持ちの皆様へ'),
+        //   link: this.localePath('/parent')
+        // },
+        // {
+        //   icon: 'mdi-account-multiple',
+        //   title: this.$t('【県】県民の皆様へ'),
+        //   link:
+        //     'https://www.pref.kumamoto.jp/hpkiji/pub/List.aspx?c_id=3&class_set_id=1&class_id=7057'
+        // },
+        // {
+        //   icon: 'mdi-domain',
+        //   title: this.$t('【県】事業者の皆様へ'),
+        //   link:
+        //     'https://www.pref.kumamoto.jp/hpkiji/pub/List.aspx?c_id=3&class_set_id=1&class_id=7054'
+        // },
         // {
         //   icon: 'mdi-domain',
         //   title: this.$t('企業の皆様・はたらく皆様へ'),
