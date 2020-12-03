@@ -9,7 +9,7 @@
       :items="inspectionsItems"
       :labels="inspectionsLabels"
       :unit="$t('件.tested')"
-      :url="'https://www.pref.kumamoto.jp/kiji_22038.html'"
+      :url="'https://www.pref.kumamoto.jp/soshiki/211/50632.html'"
       :data-labels="inspectionsDataLabels"
       :remarks="remarks"
     >
@@ -41,7 +41,9 @@ export default {
 
     const remarks = [
       this.$t('同一の対象者について複数の検体を検査する場合あり'),
-      this.$t('速報値として公開するものであり、後日確定データとして修正される場合あり')
+      this.$t(
+        '速報値として公開するものであり、後日確定データとして修正される場合あり'
+      )
     ]
 
     const data = {

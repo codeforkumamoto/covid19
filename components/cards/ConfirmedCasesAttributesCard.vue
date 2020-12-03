@@ -8,7 +8,7 @@
         :chart-option="{}"
         :date="Data.patients.date"
         :info="sumInfoOfPatients"
-        :url="'https://www.pref.kumamoto.jp/kiji_22038.html'"
+        :url="'https://www.pref.kumamoto.jp/soshiki/211/50632.html'"
         :custom-sort="customSort"
         :remarks="remarks"
       />
@@ -61,7 +61,7 @@ export default {
       }
     }
 
-    const remarks = [ this.$t('死亡退院を含む') ]
+    const remarks = [this.$t('死亡退院を含む')]
 
     const data = {
       Data,

@@ -4,7 +4,7 @@
       :title="$t('検査陽性者の状況')"
       :title-id="'details-of-confirmed-cases'"
       :date="Data.patients.date"
-      :url="'https://www.pref.kumamoto.jp/kiji_22038.html'"
+      :url="'https://www.pref.kumamoto.jp/soshiki/211/50632.html'"
       :remarks="remarks"
     >
       <!-- <template v-slot:description>
@@ -60,9 +60,7 @@ export default {
       this.$t(
         '陽性者数は件数であり、同一人物に複数回の感染がある場合、別としてカウントする'
       ),
-      this.$t(
-        '軽症・中等症には無症状も含む'
-      )
+      this.$t('軽症・中等症には無症状も含む')
     ]
 
     const data = {
