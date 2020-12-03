@@ -148,7 +148,7 @@ export default Vue.extend({
           icon: 'CovidIcon',
           title: this.$t('【県】新型コロナウイルス感染症が心配なときに'),
           // link: this.localePath('/flow'),
-          link: 'https://www.pref.kumamoto.jp/kiji_31292.html',
+          link: 'https://www.pref.kumamoto.jp/soshiki/30/51357.html',
           divider: true
         },
         // {

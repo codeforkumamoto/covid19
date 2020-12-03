@@ -39,12 +39,13 @@
           }}
         </li>
         <li>
-          {{ $t('手洗い、咳エチケット等により、感染予防に努めてください。')
-          }}<br />
+          {{ $t('手洗い、咳エチケット等により、感染予防に努めてください。') }}
+          <br />
           <external-link
             url="http://www.city.kumamoto.jp/common/UploadFileDsp.aspx?c_id=5&id=26562&sub_id=32&flid=194113"
             :icon-size="16"
-            >{{ $t('【参考】感染症予防のための正しい手洗い方法（動画）') }}
+          >
+            {{ $t('【参考】感染症予防のための正しい手洗い方法（動画）') }}
           </external-link>
         </li>
         <li>
@@ -64,9 +65,10 @@
           {{ $t('各保健所の電話番号について') }}
           <br />
           <external-link
-            url="https://www.pref.kumamoto.jp/hpkiji/pub/List.aspx?c_id=3&class_set_id=1&class_id=7058"
+            url="https://www.pref.kumamoto.jp/soshiki/30/51357.html"
             :icon-size="16"
-            >{{ $t('「新型コロナウイルス感染症にかかる相談窓口について」') }}
+          >
+            {{ $t('「新型コロナウイルス感染症にかかる相談窓口について」') }}
           </external-link>
         </li>
       </ul>
