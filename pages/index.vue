@@ -17,7 +17,7 @@
     <whats-new class="mb-4" :items="newsItems" />
     <static-info
       class="mb-4"
-      :url="'https://www.pref.kumamoto.jp/kiji_31292.html'"
+      :url="'https://www.pref.kumamoto.jp/soshiki/30/51357.html'"
       :text="$t('自分や家族の症状に不安や心配があればまずは電話相談をどうぞ')"
       :btn-text="$t('相談の手順を見る')"
     />

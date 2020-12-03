@@ -6,10 +6,7 @@
           mdi-information
         </v-icon>
         <!-- {{ $t('最新のお知らせ') }} -->
-        <a
-          href="https://www.pref.kumamoto.jp/hpkiji/pub/List.aspx?c_id=3&class_set_id=1&class_id=7049"
-          target="_blank"
-        >
+        <a href="https://www.pref.kumamoto.jp/site/covid-19/" target="_blank">
           {{ $t('熊本県発表の新型コロナウイルス感染症に関する情報はこちら') }}
         </a>
       </h3>
