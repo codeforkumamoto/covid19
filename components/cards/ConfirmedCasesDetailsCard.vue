@@ -4,7 +4,7 @@
       :title="$t('検査陽性者の状況')"
       :title-id="'details-of-confirmed-cases'"
       :date="Data.patients.date"
-      :url="'https://www.pref.kumamoto.jp/soshiki/211/50632.html'"
+      :url="'https://www.pref.kumamoto.jp/soshiki/211/82808.html'"
       :remarks="remarks"
     >
       <!-- <template v-slot:description>

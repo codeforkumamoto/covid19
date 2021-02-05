@@ -8,7 +8,7 @@
         :chart-option="{}"
         :date="Data.patients.date"
         :info="sumInfoOfPatients"
-        :url="'https://www.pref.kumamoto.jp/soshiki/211/50632.html'"
+        :url="'https://www.pref.kumamoto.jp/soshiki/211/82808.html'"
         :custom-sort="customSort"
         :remarks="remarks"
       />

@@ -7,13 +7,13 @@
       :chart-data="contactsGraph"
       :date="Data.contacts.date"
       :unit="$t('件.reports')"
-      :url="'https://www.pref.kumamoto.jp/soshiki/211/50632.html'"
+      :url="'https://www.pref.kumamoto.jp/soshiki/211/82808.html'"
     /> -->
     <!-- 件.reports = 窓口相談件数 -->
     <new-contacts-chart
       :date="Data.contacts.date"
       :daily-data="Data.contacts.data"
-      :url="'https://www.pref.kumamoto.jp/soshiki/211/50632.html'"
+      :url="'https://www.pref.kumamoto.jp/soshiki/211/82808.html'"
     />
   </v-col>
 </template>

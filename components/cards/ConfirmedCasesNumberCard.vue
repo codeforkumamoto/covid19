@@ -3,7 +3,7 @@
     <new-patients-chart
       :date="Data.patients_summary.date"
       :daily-data="Data.patients_summary.data"
-      :url="'https://www.pref.kumamoto.jp/soshiki/211/50632.html'"
+      :url="'https://www.pref.kumamoto.jp/soshiki/211/82808.html'"
       :title="$t('陽性患者数')"
       :remarks="remarks"
     />
@@ -14,7 +14,7 @@
       :chart-data="patientsGraph"
       :date="Data.patients.date"
       :unit="$t('人')"
-      :url="'https://www.pref.kumamoto.jp/soshiki/211/50632.html'"
+      :url="'https://www.pref.kumamoto.jp/soshiki/211/82808.html'"
       :remarks="remarks"
     >
       <template v-slot:description>
